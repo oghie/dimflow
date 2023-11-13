@@ -30,4 +30,3 @@ Sniff packets real-time from interface: (**need root permission**)
 python3 sniffer.py -i eth0 -c --dir output_flows/
 ```
 
-- Reference: https://www.unb.ca/cic/research/applications.html#CICFlowMeter
