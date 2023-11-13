@@ -2,7 +2,7 @@
 
 ### Usage
 ```sh
-Usage: dimflow [OPTIONS]
+Usage: python3 sniffer.py [OPTIONS]
 
 Options:
   -i, --interface TEXT   Capture live data from the network interface.
@@ -21,13 +21,13 @@ Constraints:
 Convert the `example.pcap` PCAP file to a csv file containing flows in the `output_flows` folder:
 
 ```
-dimflow -f example.pcap -c --dir output_flows/
+python3 sniffer.py -f example.pcap -c --dir output_flows/
 ```
 
 Sniff packets real-time from interface: (**need root permission**)
 
 ```
-dimflow -i eth0 -c --dir output_flows/
+python3 sniffer.py -i eth0 -c --dir output_flows/
 ```
 
 - Reference: https://www.unb.ca/cic/research/applications.html#CICFlowMeter
